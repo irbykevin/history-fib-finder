@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640" role="img" aria-labelledby="t d">
+  <title id="t">History Fib Finder</title>
+  <desc id="d">Three history fact cards. Two are marked true with green checks, and one has a red FIB! rubber stamp on it.</desc>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="20" cy="20" r="2" fill="#C5D8D2"/>
+    </pattern>
+    <filter id="sh" x="-10%" y="-10%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="0" flood-color="#B9D0C9"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="640" fill="#E4EFEC"/>
+  <rect width="1280" height="640" fill="url(#grid)"/>
+
+  <!-- confetti -->
+  <g>
+    <rect x="96" y="70" width="16" height="22" rx="3" fill="#F2A922" transform="rotate(20 104 81)"/>
+    <rect x="210" y="520" width="16" height="22" rx="3" fill="#2F7FD1" transform="rotate(-25 218 531)"/>
+    <rect x="610" y="560" width="16" height="22" rx="3" fill="#E0603F" transform="rotate(35 618 571)"/>
+    <rect x="1180" y="80" width="16" height="22" rx="3" fill="#8A5BD6" transform="rotate(-15 1188 91)"/>
+    <rect x="1150" y="560" width="16" height="22" rx="3" fill="#23905F" transform="rotate(40 1158 571)"/>
+    <circle cx="560" cy="90" r="9" fill="#2F7FD1"/>
+    <circle cx="80" cy="420" r="9" fill="#8A5BD6"/>
+    <circle cx="1220" cy="330" r="9" fill="#F2A922"/>
+  </g>
+
+  <!-- title block -->
+  <g font-family="Rockwell, 'Roboto Slab', Georgia, serif" fill="#1C2A38">
+    <text x="96" y="232" font-size="92" font-weight="700">History</text>
+    <text x="96" y="332" font-size="92" font-weight="700">Fib Finder</text>
+  </g>
+  <text x="98" y="398" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="30" fill="#56666F">Two facts are true. One is a fib.</text>
+  <text x="98" y="440" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="30" fill="#56666F">Can you spot it?</text>
+  <g transform="translate(98 478)">
+    <rect width="260" height="64" rx="16" fill="#C4850B" y="6"/>
+    <rect width="260" height="64" rx="16" fill="#F2A922"/>
+    <text x="130" y="42" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="26" font-weight="800" fill="#2B1D00">1 to 4 players</text>
+  </g>
+
+  <!-- card 1: true -->
+  <g transform="translate(700 90) rotate(-4)">
+    <rect width="470" height="120" rx="22" fill="#FFFFFF" stroke="#C5D8D2" stroke-width="4" filter="url(#sh)"/>
+    <circle cx="58" cy="60" r="28" fill="#F2A922"/>
+    <text x="58" y="71" text-anchor="middle" font-family="Rockwell, Georgia, serif" font-size="30" font-weight="800" fill="#2B1D00">A</text>
+    <rect x="110" y="40" width="300" height="14" rx="7" fill="#C5D8D2"/>
+    <rect x="110" y="68" width="200" height="14" rx="7" fill="#C5D8D2"/>
+    <circle cx="430" cy="24" r="22" fill="#1F8A5A"/>
+    <path d="M419 24 l8 8 l14 -16" stroke="#FFFFFF" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- card 2: fib -->
+  <g transform="translate(690 262) rotate(2)">
+    <rect width="490" height="124" rx="22" fill="#FBE4E1" stroke="#D3473A" stroke-width="5" filter="url(#sh)"/>
+    <circle cx="60" cy="62" r="28" fill="#D3473A"/>
+    <text x="60" y="73" text-anchor="middle" font-family="Rockwell, Georgia, serif" font-size="30" font-weight="800" fill="#FFFFFF">B</text>
+    <rect x="112" y="42" width="290" height="14" rx="7" fill="#E9B4AD"/>
+    <rect x="112" y="70" width="180" height="14" rx="7" fill="#E9B4AD"/>
+    <g transform="translate(300 -6) rotate(-14)">
+      <rect width="190" height="80" rx="12" fill="#FFFFFF" stroke="#D3473A" stroke-width="7"/>
+      <rect x="10" y="10" width="170" height="60" rx="7" fill="none" stroke="#D3473A" stroke-width="2.5"/>
+      <text x="95" y="58" text-anchor="middle" font-family="Rockwell, 'Roboto Slab', Georgia, serif" font-size="46" font-weight="800" fill="#D3473A" letter-spacing="3">FIB!</text>
+    </g>
+  </g>
+
+  <!-- card 3: true -->
+  <g transform="translate(710 438) rotate(-2)">
+    <rect width="470" height="120" rx="22" fill="#FFFFFF" stroke="#C5D8D2" stroke-width="4" filter="url(#sh)"/>
+    <circle cx="58" cy="60" r="28" fill="#F2A922"/>
+    <text x="58" y="71" text-anchor="middle" font-family="Rockwell, Georgia, serif" font-size="30" font-weight="800" fill="#2B1D00">C</text>
+    <rect x="110" y="40" width="280" height="14" rx="7" fill="#C5D8D2"/>
+    <rect x="110" y="68" width="220" height="14" rx="7" fill="#C5D8D2"/>
+    <circle cx="430" cy="24" r="22" fill="#1F8A5A"/>
+    <path d="M419 24 l8 8 l14 -16" stroke="#FFFFFF" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
